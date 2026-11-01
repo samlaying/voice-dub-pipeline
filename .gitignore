@@ -1,0 +1,9 @@
+jobs/
+*.wav
+*.mp4
+*.srt
+cookies.txt
+.env
+__pycache__/
+*.pyc
+.DS_Store

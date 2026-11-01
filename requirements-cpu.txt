@@ -1,0 +1,4 @@
+# Stages that run without a GPU: download, separation, translation.
+# Demucs pulls a CPU build of PyTorch, which is the bulk of the install.
+yt-dlp>=2024.1.0
+demucs>=4.0.1

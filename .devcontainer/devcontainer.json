@@ -1,0 +1,13 @@
+{
+  "name": "voice-dub-pipeline (CPU stages)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg && pip install -r requirements-cpu.txt",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
